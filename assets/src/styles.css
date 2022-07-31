@@ -31,13 +31,14 @@ body {
     min-width: 40vw;
     padding: 50px 0;
     padding-top: 180px;
+    
 
 }
 
 .login{
     display: flex;
     flex-direction: column;
-
+    
     align-items: center;
     justify-content: space-between;
     width: 300px;
@@ -56,6 +57,7 @@ body {
     justify-content: center;
     
     
+    
 }
 
 input {
@@ -64,15 +66,20 @@ input {
     height: 35px;
     margin: 5px;
     border: 0;
-    border-radius: 20px;
+    border-radius: 25px;
     
 }
 
-.login-input{
+#login-input{
     background-color: rgb(90, 92, 233);
     border: 3px solid white;
+
+}
+
+.user{
     
 }
+
 
 .btn{
     background-color: white;
@@ -123,6 +130,16 @@ input {
        display: flex;
        justify-content: space-between;
        
+    }
+
+    input {
+        width: 300px;
+        height: 45px;
+        margin: 5px;
+    }
+    #login-container{
+        height: 100%;
+        
     }
 
     #img-container{
